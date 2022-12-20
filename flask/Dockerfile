@@ -12,6 +12,8 @@ COPY . /app
 ENTRYPOINT ["python3"]
 CMD ["main.py"]
 
+EXPOSE 8080
+
 FROM builder as dev-envs
 
 RUN <<EOF
