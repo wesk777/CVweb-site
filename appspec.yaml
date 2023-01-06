@@ -8,7 +8,3 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/CVweb-site
-permissions:
-  permissions-specifications
-hooks:
-  deployment-lifecycle-event-mappings
