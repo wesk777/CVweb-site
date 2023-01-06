@@ -1,1 +1,14 @@
-
+#--------------------------------------------------------------
+# Simple AWS CodeDeploy Config File
+#
+# Copyleft (c) by Ilya Sergeev
+#--------------------------------------------------------------
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/CVweb-site
+permissions:
+  permissions-specifications
+hooks:
+  deployment-lifecycle-event-mappings
