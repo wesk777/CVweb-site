@@ -6,5 +6,5 @@
 version: 0.0
 os: linux
 files:
-  - source: /*
+  - source: /CVweb-site
     destination: /home/ec2-user/CVweb-site
