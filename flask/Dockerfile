@@ -12,7 +12,7 @@ COPY . /app
 ENTRYPOINT ["python3"]
 CMD ["main.py"]
 
-EXPOSE 8080
+EXPOSE 80
 
 FROM builder as dev-envs
 
